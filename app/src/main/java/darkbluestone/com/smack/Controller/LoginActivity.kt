@@ -1,9 +1,10 @@
-package darkbluestone.com.smack
+package darkbluestone.com.smack.Controller
 
 import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import darkbluestone.com.smack.R
 
 class LoginActivity : AppCompatActivity() {
 
