@@ -17,10 +17,11 @@ class LoginActivity : AppCompatActivity() {
 
     }
 
-    fun longinCreateBtnClicked (view: View) {
+    fun loginCreateBtnClicked (view: View) {
 
         val createUserIntent = Intent (this, CreateUserActivity::class.java)
         startActivity(createUserIntent)
+        finish()
 
     }
 }
